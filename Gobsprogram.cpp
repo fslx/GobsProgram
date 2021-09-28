@@ -19,3 +19,18 @@ int main()
     return 0;
     
 }
+/*
+Testing a function that uses an infinite loop.
+*/
+void gobsProgram() {
+    
+    system("Color 02");
+    string choice = "Gob's Program: Y/N?\n";
+    std::cout << choice;
+    std::cin >> choice;
+    bool inf = true;
+    while(inf) {
+    std::cout << "PENUS PENUS PENUS PENUS PENUS PENUS\n"; 
+    }
+    
+}
